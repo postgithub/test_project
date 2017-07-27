@@ -22,7 +22,7 @@ public class Affiche {
             System.out.println("modifié par post");
             System.out.println("ajouté par post");
         }else{
-            System.out.println(new LoginController().checkEmail());
+            System.out.println(new LoginController().checkEmail() + "ajouté");
         }
     }
     
