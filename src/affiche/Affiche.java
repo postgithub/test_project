@@ -17,7 +17,7 @@ public class Affiche {
     public static void main(String[] args) {
        
         if(args.length > 0){
-            System.out.println(args[0]);
+            System.out.println("modifié par michelb");
         }else{
             System.out.println("Pas de pramètre");
         }
