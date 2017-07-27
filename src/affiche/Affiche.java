@@ -19,7 +19,7 @@ public class Affiche {
         if(args.length > 0){
             System.out.println(args[0]);
         }else{
-            System.out.println("Pas de paramètre");
+            System.out.println("Pas de pramètre");
         }
     }
     
