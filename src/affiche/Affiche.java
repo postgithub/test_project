@@ -5,6 +5,7 @@
  */
 package affiche;
 
+import Controller.LoginController;
 import modele.Etudiant;
 
 /**
