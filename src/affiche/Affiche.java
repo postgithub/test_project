@@ -5,6 +5,8 @@
  */
 package affiche;
 
+import Controller.LoginController;
+
 /**
  *
  * @author michelB
@@ -20,7 +22,7 @@ public class Affiche {
             System.out.println("modifié par post");
             System.out.println("ajouté par post");
         }else{
-            System.out.println("modifié par michelb");
+            System.out.println(new LoginController().checkEmail());
         }
     }
     
