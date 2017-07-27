@@ -19,7 +19,7 @@ public class Affiche {
         if(args.length > 0){
             System.out.println("");
         }else{
-            System.out.println("");
+            System.out.println("modifié par michelb");
         }
     }
     
