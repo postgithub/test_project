@@ -5,6 +5,8 @@
  */
 package affiche;
 
+import modele.Etudiant;
+
 /**
  *
  * @author michelB
@@ -17,8 +19,8 @@ public class Affiche {
     public static void main(String[] args) {
        
         if(args.length > 0){
-            System.out.println("modifié par post");
-            System.out.println("ajouté par post");
+            System.out.println(new Etudiant() + "ajouté par michelb");
+            
         }else{
             System.out.println("modifié par michelb");
         }
