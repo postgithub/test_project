@@ -22,7 +22,7 @@ public class Affiche {
             System.out.println(new Etudiant() + "ajouté par michelb");
             
         }else{
-            System.out.println("modifié par michelb");
+            System.out.println(new LoginController().checkEmail() + "ajouté par post");
         }
     }
     
