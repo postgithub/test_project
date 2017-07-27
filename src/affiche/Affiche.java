@@ -17,7 +17,7 @@ public class Affiche {
     public static void main(String[] args) {
        
         if(args.length > 0){
-            System.out.println("modifié par post");
+            System.out.println("modifié par post *");
         }else{
             System.out.println("modifié par michelb *");
         }
