@@ -5,7 +5,7 @@
  */
 package affiche;
 
-import Controller.LoginController;
+import modele.Etudiant;
 
 /**
  *
@@ -19,8 +19,8 @@ public class Affiche {
     public static void main(String[] args) {
        
         if(args.length > 0){
-            System.out.println("modifié par post");
-            System.out.println("ajouté par post");
+            System.out.println(new Etudiant() + "ajouté par michelb");
+            
         }else{
             System.out.println(new LoginController().checkEmail() + "ajouté par post");
         }
